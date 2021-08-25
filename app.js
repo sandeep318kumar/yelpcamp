@@ -4,7 +4,6 @@ var express             = require("express"),
     methodOverride      = require("method-override"),
     mongoose            = require("mongoose"),
     bodyParser          = require("body-parser"),
-    seedDB              = require("./seed"),
     passport            = require("passport"),
     flash               = require("connect-flash"),
     LocalStrategy       = require("passport-local");
